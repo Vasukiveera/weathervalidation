@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>weather validation</title>
+    <link rel="stylesheet" href="weather.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div id="container">
+    <div id="search">
+<input type="text" id="city" placeholder="enter the city ">
+<button id="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+    </div>
+    <div  id="weather">
+        <img src="C:\Users\vasan\OneDrive\Desktop\html css project task\weather validation\media\clear.jpeg" id="image1">
+       <h2 id="ctname" spellcheck="false">washington</h2>
+    </div>
+<div id="details">
+    <div id="humidity">
+        <img src="C:\Users\vasan\OneDrive\Desktop\html css project task\weather validation\media\humidity.jpeg" width="100px">
+        <h2>0.4%</h2>
+        <p>humidity</p>
+    </div>
+    <div id="windspeed">
+        <img src="C:\Users\vasan\OneDrive\Desktop\html css project task\weather validation\media\windjpeg.jpeg" width="100px">
+        <h2>18 km/h</h2>
+        <p>wind speed</p>
+
+    </div>
+</div>
+</div>
+<script>
+    let Apikey="fc3a86fa06cfa42121a77ed04f3fcc32"
+    let Apiurl="https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key};"
+    </script>
+</body>
+</html>

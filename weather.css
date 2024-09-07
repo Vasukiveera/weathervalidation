@@ -1,0 +1,90 @@
+/* weather.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    background-color: #ffffff; /* White background for the main container */
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+}
+
+#search {
+    margin-bottom: 20px;
+}
+
+#city {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#button {
+    padding: 10px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#button i {
+    margin: 0;
+}
+
+#weather {
+    margin-bottom: 20px;
+}
+
+#image1 {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#ctname {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+#details {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#details div {
+    flex: 1;
+}
+
+#details img {
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+p {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+}
